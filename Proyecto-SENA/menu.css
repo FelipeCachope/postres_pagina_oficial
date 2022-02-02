@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(img/paipa\ \(1\).jpg)
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    top: 330px;
+    z-index: 2000;
+    
+}
+
+.social ul{
+    list-style: none;
+
+}
+
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 20px 20px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook2{background:#3b5998;}
+.social ul li .icon-instagram{background:#E4287C;}
+.social ul li .icon-whatsapp{background:green;}
+
+.social ul li a:hover{
+    padding: 20px 40px;
+    background: #000;
+}
+
+.form-admin .adm{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: calc(70% - 70px);
+
+}
+.form-admin .logo{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: calc(30% - 30px);
+
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #04213f;
+    width: 100%;
+    max-width: 1500px;
+    margin:auto;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li a:hover{
+    background: #43568a;
+
+}
+ .btonsalir{
+    width: 10%;
+    background: #04213f;
+    padding: 10px;
+    color: rgb(246, 253, 255);
+    margin: 20px 40px;
+    font-size: 14px;
+}
+.select1{
+    text-decoration: none;
+ font: 16px "Times New Roman";
+    background:#04213f ;
+    color: white ;
+    padding: 30px;
+
+}
