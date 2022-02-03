@@ -138,6 +138,12 @@
     font-size: 14px;
   }
 
+  .btonsalir a{
+    text-decoration: none;
+    color: white;
+    font: 16px "Times New Roman";
+}
+
   .select1{
     width: 100%;
     background: white;

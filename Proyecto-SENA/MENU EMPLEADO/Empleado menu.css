@@ -5,17 +5,68 @@
 
 }
 body{
-    background: url(img/yes.0.jpeg)
+    background: url(imagenes/pexels-abdullah-ghatasheh-1631677.jpg)
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    top: 330px;
+    z-index: 2000;
+    
+}
+
+.social ul{
+    list-style: none;
 
 }
 
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 20px 20px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
 
+.social ul li .icon-facebook2{background:#3b5998;}
+.social ul li .icon-instagram{background:#E4287C;}
+.social ul li .icon-whatsapp{background:green;}
+
+.social ul li a:hover{
+    padding: 20px 40px;
+    background: #000;
+}
+
+.form-admin .adm{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: calc(70% - 70px);
+
+}
+.form-admin .logo{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: calc(30% - 30px);
+
+}
 .menu{
     list-style: none;
-    padding: 100;
-    background: #24303c;
-    width: 30%;
-    max-width: 1000px;
+    padding: 0;
+    background: #017bab;
+    width: 100%;
+    max-width: 1050px;
     margin:auto;
 
 }
@@ -23,7 +74,7 @@ body{
 .menu li a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 30px;
     display: block;
 
 
@@ -36,35 +87,37 @@ body{
 }
 
 .menu li a:hover{
-    background: #1f53c5;
+    background: #000;
 
 }
- .boton{
-    width: 5%;
-    background: #1f53c5;
+
+
+ .btonsalir{
+    width: 10%;
+    background: #017bab;
     padding: 10px;
-    color: white;
+    color: rgb(246, 253, 255);
     margin: 20px 40px;
     font-size: 14px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-.btonsalir{
-    width: 5%;
-    background: #1f53c5;
-    padding: 10px;
-    color: white;
-    margin: 20px 40px;
-    font-size: 14px;
-}
 .btonsalir a{
-    background: #1f53c5 ;
+    text-decoration: none;
     color: white;
+    font: 16px "Times New Roman";
+}
+
+
+
+.select1{
+    text-decoration: none;
+ font: 16px "Times New Roman";
+    background:#017bab ;
+    color: white ;
+    padding: 30px;
+}
+.select1 a:hover{
+    background: #000000;
 
 }
+

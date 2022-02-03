@@ -137,3 +137,10 @@
     margin: 20px 40px;
     font-size: 14px;
   }
+
+  .btonsalir a{
+    text-decoration: none;
+    color: white;
+    font: 16px "Times New Roman";
+}
+

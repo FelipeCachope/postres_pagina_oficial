@@ -64,9 +64,9 @@ body{
 .menu{
     list-style: none;
     padding: 0;
-    background: #04213f;
+    background: #017bab;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1050px;
     margin:auto;
 
 }
@@ -87,22 +87,37 @@ body{
 }
 
 .menu li a:hover{
-    background: #43568a;
+    background: #000;
 
 }
+
+
  .btonsalir{
     width: 10%;
-    background: #04213f;
+    background: #017bab;
     padding: 10px;
     color: rgb(246, 253, 255);
     margin: 20px 40px;
     font-size: 14px;
 }
+
+.btonsalir a{
+    text-decoration: none;
+    color: white;
+    font: 16px "Times New Roman";
+}
+
+
+
 .select1{
     text-decoration: none;
  font: 16px "Times New Roman";
-    background:#04213f ;
+    background:#017bab ;
     color: white ;
     padding: 30px;
+}
+.select1 a:hover{
+    background: #000000;
 
 }
+
